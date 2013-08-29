@@ -8,7 +8,6 @@ For installing templates, you need, just copy all XML files to matching folder a
 - Windows: [your home directory]\.[product name][version number]\config\templates
 
 	Example:
-
 	`C:\Users\Windows-User\.WebStorm6\config\templates\`
 
 - Linux: ~\.[product name][version number]\config\templates
