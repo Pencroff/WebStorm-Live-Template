@@ -1,21 +1,33 @@
 #WebStorm Live Template
 
-
-##How to instal
+###How to instal
 
 For installing templates, you need, just copy all XML files to matching folder and restart WebStopm (PHPStorm)
 
 - Windows: [your home directory]\.[product name][version number]\config\templates
 
-	Example:
-	`C:\Users\Windows-User\.WebStorm6\config\templates\`
+	Example: `C:\Users\Windows-User\.WebStorm6\config\templates\`
 
 - Linux: ~\.[product name][version number]\config\templates
 - MacOS: ~/Library/Preferences/[product name][version number]/templates
 
+----------
+
+## AMD
++ `define` - new full AMD module with name, dependensies and implementation. A directive `/*global define:true*/` added for telling JSHint/JSLint about global variables.
+
+```javascript
+/*global define:true*/
+define('$MODULENAME$', [], function () {
+    'use strict';
+    $END$
+    return {};
+});
+```
+
 ## Mocha test framework
 	
-+ desc - create new 'describe' function, group of tests
++ `desc` - create new 'describe' function, group of tests
 
 ```javascript
 describe('$TESTNAME$', function () {
@@ -23,7 +35,7 @@ describe('$TESTNAME$', function () {
 });
 ```
 
-+ it - create new 'it' function, implementation one test
++ `it` - create new 'it' function, implementation one test
 
 ```javascript
 it('$STATE$', function (done) {
