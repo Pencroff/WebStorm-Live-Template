@@ -29,7 +29,7 @@ define('$MODULENAME$', [], function () {
 + `?` - Conditional operator that assigns a value to a variable based on some condition
 
 ```javascript
-
+$VAR$=($CONDITION$)?$VAL1$:$VAL2$
 ```
 
 + `do` - Loop 'do-while' execute the code block once, before checking if the condition.
