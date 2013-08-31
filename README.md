@@ -24,6 +24,83 @@ define('$MODULENAME$', [], function () {
     return {};
 });
 ```
+## JS (Java Script construction)
+
++ `?` - Conditional operator that assigns a value to a variable based on some condition
+
+```javascript
+
+```
+
++ `do` - Loop 'do-while' execute the code block once, before checking if the condition.
+
+```javascript
+do {
+  $END$
+} while ($CONDITION$);
+```
+
++ `for` - Loop 'for' with index
+
+```javascript
+len=$ARRAY$.length;
+for ($INDEX$ = 0; $INDEX$<len; $INDEX$ += 1) {
+    $VAR$ = $ARRAY$[$INDEX$];
+    $END$    
+}
+```
+
++ `forin` - Loop 'for-in' loops through the properties of an object
+
+```javascript
+for (prop in $OBJ$) {
+    if ($OBJ$.hasOwnProperty(prop)) {
+        $END$
+    }
+}
+```
+
++ `if` - 'if' statement
+
+```javascript
+if ($CONDITION$) {
+    $END$
+}
+```
+
++ `ife` - 'if-else' statement
+
+```javascript
+if ($CONDITION$) {
+    $END$
+} else {
+
+}
+```
+
++ `ifeif` - 'if-else if -else' statement
+
+```javascript
+if ($CONDITION$) {
+    $END$
+} else if ($NEXTCONDITION$) {
+
+} else {
+
+}
+```
+
++ `snip` - desc
+
+```javascript
+
+```
+
++ `snip` - desc
+
+```javascript
+
+```
 
 ## Mocha test framework
 	
