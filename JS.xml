@@ -196,5 +196,27 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="?" value="$VAR$=($CONDITION$)?$VAL1$:$VAL2$" description="Conditional operator that assigns a value to a variable based on some condition" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;val&quot;" alwaysStopAt="true" />
+    <variable name="CONDITION" expression="completeSmart()" defaultValue="&quot;condititon&quot;" alwaysStopAt="true" />
+    <variable name="VAL1" expression="" defaultValue="&quot;value1&quot;" alwaysStopAt="true" />
+    <variable name="VAL2" expression="" defaultValue="&quot;value2&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
 
