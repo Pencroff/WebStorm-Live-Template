@@ -90,10 +90,43 @@ if ($CONDITION$) {
 }
 ```
 
-+ `snip` - desc
++ `switch` - 'switch' statement
 
 ```javascript
+switch ($EXPRESSION$) {
+case $EXPVALUE1$:
+    $END$
+    break;
+case $EXPVALUE2$:
 
+    break;
+default:
+
+}
+```
+
++ `throw` - Throw new error
+
+```javascript
+throw new $ERRTYPE$('$MSG$', '$MODULENAME$');
+```
+
++ `try` - 'try-catch' statement
+
+```javascript
+try {
+    $END$
+} catch (err) {
+
+}
+```
+
++ `while` - Loop 'while' loops through a block of code with condition
+
+```javascript
+while ($CONDITION$) {
+    $END$
+}
 ```
 
 + `snip` - desc
