@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Timers">
+  <template name="seti" value="setInterval($FUNC$, $PERIOD$);" description="The setInterval() method" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNC" expression="complete()" defaultValue="&quot;function&quot;" alwaysStopAt="true" />
+    <variable name="PERIOD" expression="enum(&quot;10&quot;, &quot;1 / 60&quot;, &quot;1 / 30&quot;, &quot;50&quot;, &quot;100&quot;, &quot;1000&quot;)" defaultValue="&quot;10&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="sett" value="setInterval($FUNC$, $PERIOD$);" description="The setTimeout() method" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNC" expression="complete()" defaultValue="&quot;function&quot;" alwaysStopAt="true" />
+    <variable name="PERIOD" expression="enum(&quot;10&quot;, &quot;1 / 60&quot;, &quot;1 / 30&quot;, &quot;50&quot;, &quot;100&quot;, &quot;1000&quot;)" defaultValue="&quot;10&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
+

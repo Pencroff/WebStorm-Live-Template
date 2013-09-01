@@ -24,6 +24,20 @@ define('$MODULENAME$', [], function () {
     return {};
 });
 ```
+## Console
+
++ `dir` - Console dir() method
+
+```javascript
+console.dir($PARAM$)
+```
+
++ `log` - Console log() method
+
+```javascript
+console.log($PARAM$)
+```
+
 ## JS (Java Script construction)
 
 + `?` - Conditional operator that assigns a value to a variable based on some condition
@@ -129,10 +143,18 @@ while ($CONDITION$) {
 }
 ```
 
-+ `snip` - desc
+## Timers
+
++ `seti` - The setInterval() method
 
 ```javascript
+setInterval($FUNC$, $PERIOD$);
+```
 
++ `sett` - The setTimeout() method
+
+```javascript
+setInterval($FUNC$, $PERIOD$);
 ```
 
 ## Mocha test framework
