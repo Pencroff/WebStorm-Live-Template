@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="ExtJs">
-  <template name="extmeth" value="$METHODNAME$: function ($PARAMETERS$) {&#10;    'use strict'&#10;    var me = this;&#10;}," description="Create default method in ExtJs" toReformat="false" toShortenFQNames="true">
+  <template name="extmeth" value="$METHODNAME$: function ($PARAMETERS$) {&#10;    'use strict';&#10;    var me = this;&#10;}," description="Create default method in ExtJs" toReformat="false" toShortenFQNames="true">
     <variable name="METHODNAME" expression="jsMethodName()" defaultValue="&quot;methodName&quot;" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="completeSmart()" defaultValue="&quot;control&quot;" alwaysStopAt="true" />
     <context>
