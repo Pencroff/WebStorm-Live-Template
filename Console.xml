@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Console">
-  <template name="log" value="console.log($PARAM$)" description="Console log method" toReformat="false" toShortenFQNames="true">
+  <template name="log" value="console.log($PARAM$);$END$" description="Console log method" toReformat="false" toShortenFQNames="true">
     <variable name="PARAM" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -19,7 +19,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="dir" value="console.log($PARAM$)" description="Console dir method" toReformat="false" toShortenFQNames="true">
+  <template name="dir" value="console.dir($PARAM$);$END$" description="Console dir method" toReformat="false" toShortenFQNames="true">
     <variable name="PARAM" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />

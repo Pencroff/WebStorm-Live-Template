@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="ExtJs">
-  <template name="extmeth" value="$METHODNAME$: function ($PARAMETERS$) {&#10;    'use strict';&#10;    var me = this;&#10;}," description="Create default method in ExtJs" toReformat="false" toShortenFQNames="true">
+  <template name="extmeth" value="$METHODNAME$: function ($PARAMETERS$) {&#10;    'use strict';&#10;    var me = this;&#10;    $END$&#10;}," description="Create default method in ExtJs" toReformat="false" toShortenFQNames="true">
     <variable name="METHODNAME" expression="jsMethodName()" defaultValue="&quot;methodName&quot;" alwaysStopAt="true" />
-    <variable name="PARAMETERS" expression="completeSmart()" defaultValue="&quot;control&quot;" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="&quot;params&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="extmodel" value="/*global Ext:true*/&#10;Ext.define('$MODELNAME$', {&#10;    extend: 'Ext.data.Model',&#10;    alias: '$MODELALIAS$',&#10;    idProperty: 'Id',&#10;    fields: [&#10;        'Id',&#10;        'Description',&#10;        {&#10;            name: 'Value',&#10;            type: 'float'&#10;        }&#10;    ]&#10;});" description="Create new default model" toReformat="false" toShortenFQNames="true">
+    <variable name="MODELNAME" expression="" defaultValue="&quot;Model.Name&quot;" alwaysStopAt="true" />
+    <variable name="MODELALIAS" expression="" defaultValue="&quot;ModelAliace&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="extstore" value="/*global Ext:true*/&#10;&#10;Ext.define('$STORENAME$', {&#10;    extend: 'Ext.data.Store',&#10;    model: '$MODELNAME$',&#10;    autoLoad: false,&#10;    autoSync: false,&#10;    proxy: {&#10;        type: 'memory',&#10;        reader: {&#10;            type: 'json',&#10;            root: '/'&#10;        }&#10;    },&#10;    data: []&#10;});" description="Create new default store" toReformat="false" toShortenFQNames="true">
+    <variable name="STORENAME" expression="" defaultValue="&quot;Store.Name&quot;" alwaysStopAt="true" />
+    <variable name="MODELNAME" expression="" defaultValue="&quot;Model.Name&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
