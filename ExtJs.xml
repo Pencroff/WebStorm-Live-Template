@@ -60,5 +60,24 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="extcontroller" value="/*global Ext:true*/&#10;Ext.define('$CONTROLLERNAME$', {&#10;    extend: 'Ext.app.Controller',&#10;    stores: [&#10;    ],&#10;    models: [&#10;    ],&#10;    views: [&#10;    ],&#10;    init: function () {&#10;        'use strict';&#10;        var me = this;&#10;        me.control({&#10;        });&#10;    },&#10;    setData: function (keyId) {&#10;        'use strict';&#10;        var me = this;&#10;        me.keyId = keyId;$END$&#10;    },&#10;    getData: function () {&#10;        'use strict';&#10;        var me = this,&#10;            result = null;&#10;        return result;&#10;    }&#10;});" description="Create empty controller" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTROLLERNAME" expression="" defaultValue="&quot;Controller.Name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
 
