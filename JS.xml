@@ -79,7 +79,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="for" value="len=$ARRAY$.length;&#10;for ($INDEX$ = 0; $INDEX$ &lt; len; $INDEX$ += 1) {&#10;    $VAR$ = $ARRAY$[$INDEX$];&#10;    $END$    &#10;}" description="Loop 'for' with index" toReformat="false" toShortenFQNames="true">
+  <template name="for" value="len = $ARRAY$.length;&#10;for ($INDEX$ = 0; $INDEX$ &lt; len; $INDEX$ += 1) {&#10;    $VAR$ = $ARRAY$[$INDEX$];&#10;    $END$    &#10;}" description="Loop 'for' with index" toReformat="false" toShortenFQNames="true">
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
     <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
