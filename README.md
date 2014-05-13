@@ -57,7 +57,7 @@ do {
 + `for` - Loop 'for' with index
 
 ```javascript
-len=$ARRAY$.length;
+len = $ARRAY$.length;
 for ($INDEX$ = 0; $INDEX$<len; $INDEX$ += 1) {
     $VAR$ = $ARRAY$[$INDEX$];
     $END$    
