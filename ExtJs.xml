@@ -14,9 +14,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -34,9 +36,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -54,9 +58,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -73,9 +79,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>

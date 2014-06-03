@@ -143,6 +143,16 @@ while ($CONDITION$) {
 }
 ```
 
++ `fn` - Create new function
+
+```javascript
+function ($PARAMETERS$) {
+    'use strict';
+    var me = this;
+    $END$
+}
+```
+
 ## Timers
 
 + `seti` - The setInterval() method

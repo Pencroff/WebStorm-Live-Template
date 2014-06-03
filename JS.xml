@@ -13,9 +13,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -32,9 +34,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -52,9 +56,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -73,9 +79,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -94,9 +102,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -113,9 +123,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -132,9 +144,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -151,9 +165,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -169,9 +185,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -190,9 +208,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -212,10 +232,18 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="JADE" value="false" />
       <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fn" value="function ($PARAMETERS$) {&#10;    'use strict';&#10;    var me = this;&#10;    $END$&#10;}" description="Add new function" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="completeSmart()" defaultValue="&quot;params&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>
